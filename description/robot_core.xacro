@@ -47,6 +47,9 @@
                 <box size="0.4 0.25 0.11"/>
             </geometry>
         </collision>
+        <xacro:inertial_box mass="2" x="0.4" y="0.25" z="0.11">
+            <origin xyz="0.2 0 0.05" rpy="0 0 0"/>
+        </xacro:inertial_box> 
     </link>
 
     <!-- LEFT WHEEL LINK -->
@@ -70,6 +73,9 @@
                 <cylinder radius="0.067" length="0.02"/>
             </geometry>
         </collision>
+        <xacro:inertial_cylinder mass="0.1" length="0.02" radius="0.067">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
     </link>
 
     <!-- RIGHT WHEEL LINK -->
@@ -93,6 +99,9 @@
                 <cylinder radius="0.067" length="0.02"/>
             </geometry>
         </collision>
+        <xacro:inertial_cylinder mass="0.1" length="0.02" radius="0.067">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
     </link>
 
     <!-- CASTOR WHEEL LINK-->
@@ -114,6 +123,9 @@
                 <sphere radius="0.01"/>
             </geometry>
         </collision>
+        <xacro:inertial_sphere mass="0.01" adius="0.001">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_sphere>
     </link>
 
 </robot>

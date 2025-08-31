@@ -1,0 +1,66 @@
+[0.009s] Invoking command in '/home/kelvin/dev_ws/src/robot/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kelvin/dev_ws/src/robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kelvin/dev_ws/src/robot/install/robot
+[0.091s] -- The C compiler identification is GNU 11.4.0
+[0.163s] -- The CXX compiler identification is GNU 11.4.0
+[0.172s] -- Detecting C compiler ABI info
+[0.261s] -- Detecting C compiler ABI info - done
+[0.267s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.267s] -- Detecting C compile features
+[0.268s] -- Detecting C compile features - done
+[0.271s] -- Detecting CXX compiler ABI info
+[0.366s] -- Detecting CXX compiler ABI info - done
+[0.384s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.384s] -- Detecting CXX compile features
+[0.385s] -- Detecting CXX compile features - done
+[0.391s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.574s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.640s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.671s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.751s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.763s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.763s] -- Configured cppcheck include dirs: 
+[0.763s] -- Configured cppcheck exclude dirs and/or files: 
+[0.775s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.775s] -- Configured cpplint exclude dirs and/or files: 
+[0.776s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.780s] -- Added test 'lint_cmake' to check CMake code style
+[0.782s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.793s] -- Added test 'uncrustify' to check C / C++ code style
+[0.793s] -- Configured uncrustify additional arguments: 
+[0.795s] -- Added test 'xmllint' to check XML markup files
+[0.797s] -- Configuring done
+[0.800s] -- Generating done
+[0.801s] -- Build files have been written to: /home/kelvin/dev_ws/src/robot/build/robot
+[0.806s] Invoked command in '/home/kelvin/dev_ws/src/robot/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kelvin/dev_ws/src/robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kelvin/dev_ws/src/robot/install/robot
+[0.809s] Invoking command in '/home/kelvin/dev_ws/src/robot/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kelvin/dev_ws/src/robot/build/robot -- -j16 -l16
+[0.858s] Invoked command in '/home/kelvin/dev_ws/src/robot/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kelvin/dev_ws/src/robot/build/robot -- -j16 -l16
+[0.869s] Invoking command in '/home/kelvin/dev_ws/src/robot/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kelvin/dev_ws/src/robot/build/robot
+[0.885s] -- Install configuration: ""
+[0.886s] -- Execute custom install script
+[0.887s] -- Symlinking: /home/kelvin/dev_ws/src/robot/install/robot/share/robot/config/drive_bot.rviz
+[0.903s] -- Symlinking: /home/kelvin/dev_ws/src/robot/install/robot/share/robot/config/empty.yaml
+[0.920s] -- Symlinking: /home/kelvin/dev_ws/src/robot/install/robot/share/robot/description/gazebo_control.xacro
+[0.929s] -- Symlinking: /home/kelvin/dev_ws/src/robot/install/robot/share/robot/description/inertial_macros.xacro
+[0.939s] -- Symlinking: /home/kelvin/dev_ws/src/robot/install/robot/share/robot/description/lidar.xacro
+[0.947s] -- Symlinking: /home/kelvin/dev_ws/src/robot/install/robot/share/robot/description/robot.urdf.xacro
+[0.956s] -- Symlinking: /home/kelvin/dev_ws/src/robot/install/robot/share/robot/description/robot_core.xacro
+[0.965s] -- Symlinking: /home/kelvin/dev_ws/src/robot/install/robot/share/robot/launch/launch_sim.launch.py
+[0.974s] -- Symlinking: /home/kelvin/dev_ws/src/robot/install/robot/share/robot/launch/rsp.launch.py
+[0.984s] -- Symlinking: /home/kelvin/dev_ws/src/robot/install/robot/share/robot/worlds/empty.world
+[1.003s] -- Symlinking: /home/kelvin/dev_ws/src/robot/install/robot/share/robot/worlds/room.world/model.config
+[1.013s] -- Symlinking: /home/kelvin/dev_ws/src/robot/install/robot/share/robot/worlds/room.world/model.sdf
+[1.023s] -- Symlinking: /home/kelvin/dev_ws/src/robot/install/robot/share/ament_index/resource_index/package_run_dependencies/robot
+[1.042s] -- Symlinking: /home/kelvin/dev_ws/src/robot/install/robot/share/ament_index/resource_index/parent_prefix_path/robot
+[1.052s] -- Symlinking: /home/kelvin/dev_ws/src/robot/install/robot/share/robot/environment/ament_prefix_path.sh
+[1.062s] -- Symlinking: /home/kelvin/dev_ws/src/robot/install/robot/share/robot/environment/ament_prefix_path.dsv
+[1.072s] -- Symlinking: /home/kelvin/dev_ws/src/robot/install/robot/share/robot/environment/path.sh
+[1.082s] -- Symlinking: /home/kelvin/dev_ws/src/robot/install/robot/share/robot/environment/path.dsv
+[1.091s] -- Symlinking: /home/kelvin/dev_ws/src/robot/install/robot/share/robot/local_setup.bash
+[1.101s] -- Symlinking: /home/kelvin/dev_ws/src/robot/install/robot/share/robot/local_setup.sh
+[1.122s] -- Symlinking: /home/kelvin/dev_ws/src/robot/install/robot/share/robot/local_setup.zsh
+[1.131s] -- Symlinking: /home/kelvin/dev_ws/src/robot/install/robot/share/robot/local_setup.dsv
+[1.141s] -- Symlinking: /home/kelvin/dev_ws/src/robot/install/robot/share/robot/package.dsv
+[1.151s] -- Symlinking: /home/kelvin/dev_ws/src/robot/install/robot/share/ament_index/resource_index/packages/robot
+[1.161s] -- Symlinking: /home/kelvin/dev_ws/src/robot/install/robot/share/robot/cmake/robotConfig.cmake
+[1.170s] -- Symlinking: /home/kelvin/dev_ws/src/robot/install/robot/share/robot/cmake/robotConfig-version.cmake
+[1.180s] -- Symlinking: /home/kelvin/dev_ws/src/robot/install/robot/share/robot/package.xml
+[1.193s] Invoked command in '/home/kelvin/dev_ws/src/robot/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kelvin/dev_ws/src/robot/build/robot

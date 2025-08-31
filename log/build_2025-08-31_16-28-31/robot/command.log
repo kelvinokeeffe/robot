@@ -1,0 +1,6 @@
+Invoking command in '/home/kelvin/dev_ws/src/robot/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kelvin/dev_ws/src/robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kelvin/dev_ws/src/robot/install/robot
+Invoked command in '/home/kelvin/dev_ws/src/robot/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kelvin/dev_ws/src/robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kelvin/dev_ws/src/robot/install/robot
+Invoking command in '/home/kelvin/dev_ws/src/robot/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kelvin/dev_ws/src/robot/build/robot -- -j16 -l16
+Invoked command in '/home/kelvin/dev_ws/src/robot/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kelvin/dev_ws/src/robot/build/robot -- -j16 -l16
+Invoking command in '/home/kelvin/dev_ws/src/robot/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kelvin/dev_ws/src/robot/build/robot
+Invoked command in '/home/kelvin/dev_ws/src/robot/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kelvin/dev_ws/src/robot/build/robot

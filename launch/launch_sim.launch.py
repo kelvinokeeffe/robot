@@ -24,7 +24,7 @@ def generate_launch_description():
 
     gazebo_params_file = os.path.join(get_package_share_directory(package_name), 'config', 'gazebo_params.yaml')
 
-    #Inculde the Gazebo Launch File, provided by the gaevo ros package
+    #Inculde the Gazebo Launch File, provided by the gazebo ros package
     gazebo = IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([os.path.join(
                     get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py')]),

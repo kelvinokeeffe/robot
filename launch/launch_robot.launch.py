@@ -24,6 +24,12 @@ def generate_launch_description():
                     get_package_share_directory(package_name), 'launch', 'rsp.launch.py'
                 )]), launch_arguments={'use_sim_time': 'false', 'use_ros2_control': 'true'}.items()
     )
+    
+    lidar = IncludeLaunchDescription(
+                PythonLaunchDescriptionSource([os.path.join(
+                    get_package_share_directory('sllidar_ros2'), 'launch', 'sllidar_c1_launch.py'
+                )]), launch_arguments={'frame_id': 'laser_frame'}.items()
+    )
 
 
     robot_description = Command(['ros2 param get --hide-type /robot_state_publisher robot_description'])
@@ -68,9 +74,10 @@ def generate_launch_description():
         )
     )
 
-    #Launch all together
+   #Launch all together
     return LaunchDescription([
         rsp,
+        lidar,
         delayed_controller_manager,
         delayed_diff_drive_spawner,
         delayed_joint_broad_spawner
